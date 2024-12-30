@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(231, 199, 199);
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.header{
+    background-color: rgb(119, 45, 119);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(178, 180, 23);
+    font-size:1.3rem;
+}
+.next-year{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(0, 124, 128);
+    margin-bottom: 10px;
+}
+.counter{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(119, 45, 119);
+    color: rgb(178, 180, 23);
+    padding: 10px;
+}
+#days, #hours ,#minutes,#seconds {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
